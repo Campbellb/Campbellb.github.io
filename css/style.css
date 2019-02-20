@@ -1,0 +1,48 @@
+body {
+	font-family: 'Quicksand', serif;
+}
+
+.header {
+	text-align: center;
+	padding-top: 2%;
+}
+
+.username {
+	font-size: 60px;
+}
+
+.image-thumbnail{
+	width:200px;
+	height:200px;
+	margin-left: 70px;
+}
+
+.paragraph-title{
+	text-align: center;
+}
+
+.project-list{
+	margin-left:-40px;
+}
+
+.project-list li{
+	margin-bottom:10px;
+}
+
+.line {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+a {
+	color: black;
+}
